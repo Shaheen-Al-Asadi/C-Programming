@@ -1,0 +1,12 @@
+digraph DG {
+CPU->CPU[color=green];
+CPU->RemoveCPU[color=red];
+Memory->Memory[color=green];
+Memory->RemoveMemory[color=red];
+GPU->GPU[color=green];
+GPU->RemoveGPU[color=red];
+PowerSupply->PowerSupply[color=green];
+PowerSupply->RemovePowerSupply[color=red];
+SSD->SSD[color=green];
+SSD->RemoveSSD[color=red];
+};

@@ -1,0 +1,22 @@
+digraph DG {
+PowerSupply->Motherboard[color=green];
+Motherboard->CPU[color=green];
+Motherboard->RemoveCPU [color=red];
+CPU->Memory[color=green];
+CPU->RemoveCPU [color=red];
+RemoveCPU->CPU[color=green];
+RemoveCPU->CPU[color=green];
+Memory->SSD[color=green];
+Memory->RemoveMemory [color=red];
+RemoveMemory->Memory[color=green];
+SSD->GPU[color=green];
+SSD->RemoveSSD [color=red];
+RemoveSSD->SSD[color=green];
+GPU->Test[color=green];
+RemoveGPU->GPU[color=green];
+RemovePowerSupply->PowerSupply[color=green];
+Test->Approve[color=green];
+Test->Repair [color=red];
+Repair[shape=box];
+Approve[shape=box];
+};

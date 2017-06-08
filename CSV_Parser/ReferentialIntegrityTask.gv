@@ -1,0 +1,25 @@
+digraph DG {
+Start->InstallPowerSupply[color=green];
+InstallPowerSupply->InstallMotherboard[color=green];
+InstallPowerSupply->RemovePowerSupply [color=red];
+RemovePowerSupply->InstallPowerSupply[color=green];
+InstallMotherboard->InstallCPU[color=green];
+InstallMotherboard->RemoveMotherboard [color=red];
+RemoveMotherboard->InstallMotherboard[color=green];
+InstallCPU->InstallMemory[color=green];
+InstallCPU->RemoveCPU [color=red];
+RemoveCPU->InstallCPU[color=green];
+InstallMemory->InstallSSD[color=green];
+InstallMemory->RemoveMemory [color=red];
+RemoveMemory->InstallMemory[color=green];
+InstallSSD->InstallGPU[color=green];
+InstallSSD->RemoveSSD [color=red];
+RemoveSSD->InstallSSD[color=green];
+InstallGPU->Test[color=green];
+InstallGPU->RemoveGPU [color=red];
+RemoveGPU->InstallGPU[color=green];
+Test->Approve[color=green];
+Test->Repair [color=red];
+Approve[shape=box];
+Repair[shape=box];
+};

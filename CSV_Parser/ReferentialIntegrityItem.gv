@@ -1,0 +1,20 @@
+digraph DG {
+I5->InstallCPU[color=green];
+I5->RemoveCPU[color=red];
+I7->InstallCPU[color=green];
+I7->RemoveCPU[color=red];
+A12->InstallCPU[color=green];
+A12->RemoveCPU[color=red];
+DDR266->InstallMemory[color=green];
+DDR266->RemoveMemory[color=red];
+DDR400->InstallMemory[color=green];
+DDR400->RemoveMemory[color=red];
+Geforce750M->InstallGPU[color=green];
+Geforce750M->RemoveGPU[color=red];
+Nano->InstallGPU[color=green];
+Nano->RemoveGPU[color=red];
+PowerSupply200Watt->InstallPowerSupply[color=green];
+PowerSupply200Watt->RemovePowerSupply[color=red];
+PowerSupply300Watt->InstallPowerSupply[color=green];
+PowerSupply300Watt->RemovePowerSupply[color=red];
+};
