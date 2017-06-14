@@ -1,12 +1,3 @@
-// OOP244 Workshop 4: Constructors 
-// File: w4_at_home.cpp
-// Version: 1.0
-// Date: 2/8/2016
-// Author: Fardad Soleimanloo
-// Description:
-// This file tests at-home section of your workshop
-/////////////////////////////////////////////
-
 
 #include <iostream>
 #include "Enrollment.h"
