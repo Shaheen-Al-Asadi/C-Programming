@@ -37,6 +37,7 @@ int main(){
     current.set(name, code, year, semester, slot);
     if (current.isValid()){
       int c;
+      //enrol method tests each current course slot to check for conflicts, enrollment is true if zero returned
       if ((c = current.enrol(slots, n)) == 0){
         char res;
         slots[i] = current;
@@ -51,6 +52,7 @@ int main(){
       }
       else{
         cout << "There is a conflict with the following, please change enrollment time: " << endl;
+        //uses enrol result to retrieve course index that has a conflict
         slots[c - 1].display();
       }
     }
