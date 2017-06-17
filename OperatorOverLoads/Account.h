@@ -18,11 +18,11 @@ namespace sict{
       Account(double balance);
       Account(const char name[], double balance = 0.0);
 
-      //member operator overloads
+      //specifying member operator overloads
       Account& operator+=(const Account& incoming);
       Account& operator=(const Account& incoming);
 
-      //setter getters to prevent friend methods
+      //setter getters to prevent friend methods and exposing member variables
       double retBalance() const ;
       double setBalance(const double b);
 
