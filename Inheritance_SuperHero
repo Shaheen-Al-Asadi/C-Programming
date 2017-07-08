@@ -1,0 +1,1 @@
+Creating a hero object and Strength/fighting mechanics, using Hero class we inherit its methods into a superhero class which overloads and modifies some standard hero methods
