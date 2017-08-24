@@ -1,0 +1,1 @@
+template function that takes an object key and object value, inserts into an array and performs methods regardless of object data type
