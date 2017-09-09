@@ -1,0 +1,2 @@
+Reads a file of products , sorts their prices, taxes and other attributes
+Places products into a product pointer vector for polymorphic behaviour on the datastructure and easy exporting to file
